@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz</title>
+  </head>
+  <body>
+   <div class="mainContainer">
+      <img src="images.png" alt="" />
+      <h2 class="welcomeMsg">Hello User!</h2>
+      <h4 class="inputlabel">Enter your name to continue the Quiz.</h4>
+      <input type="text" placeholder="Enter Your Name" id="userName" required />
+      <button type="submit" id="submitBtn">Submit</button>
+    <div>
+        <div class="subContainer">
+          <h2>Select Category</h2>
+        <div class="categoryContainer">
+           <div id="salectedCat"></div>
+               <button class="categoryOption" id="history">
+                history
+               </button>
+              <button  class="categoryOption" id="GenralKwoledge" >
+                General Kwoledge
+              </button>
+              <button class="categoryOption" id="JavaScript" >
+                JavaScript
+              </button>
+              <button class="categoryOption" id="science">
+                Science
+              </button>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+   </body>
+</html>
